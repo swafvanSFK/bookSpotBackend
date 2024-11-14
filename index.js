@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3030;
 const app = express();
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://book-spot-bice.vercel.app",
     methods : ["GET", "POST", "DELETE"]
 }));
 app.use(express.json());
